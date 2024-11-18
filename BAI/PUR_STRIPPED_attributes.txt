@@ -1,0 +1,4 @@
+Distances to pith for C:\Users\Kristina\Documents\BAI\PUR_STRIPPED.fh
+CDendro=9.3.1  June 5 2018
+licensedTo=Alberto Arzac, aarzac@gmail.com
+series  d2pith  years2pith

@@ -1,0 +1,327 @@
+[1] "north.txt"  "output.txt" "plot.pdf"   "script.R"  
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+RW ~ SITE + YEAR + s(AGE)
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.9681026  1.2421505   0.779    0.436
+SITEPUR      0.0095442  0.0690499   0.138    0.890
+YEAR        -0.0002050  0.0006432  -0.319    0.750
+
+Approximate significance of smooth terms:
+         edf Ref.df     F  p-value    
+s(AGE) 5.896  5.896 4.758 5.92e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.0878   
+  Scale est. = 0.1103    n = 7122
+Linear mixed-effects model fit by REML
+  Data: strip.offset(mf) 
+       AIC      BIC    logLik
+  1386.158 1454.861 -683.0788
+
+Random effects:
+ Formula: ~Xr - 1 | g
+ Structure: pdIdnot
+              Xr1       Xr2       Xr3       Xr4       Xr5       Xr6       Xr7       Xr8
+StdDev: 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168
+
+ Formula: ~AGE | ID %in% g
+ Structure: General positive-definite, Log-Cholesky parametrization
+            StdDev      Corr  
+(Intercept) 0.431588861 (Intr)
+AGE         0.002829614 -0.888
+Residual    0.332116426       
+
+Correlation Structure: ARMA(1,0)
+ Formula: ~YEAR | g/ID 
+ Parameter estimate(s):
+     Phi1 
+0.6173344 
+Fixed effects:  y ~ X - 1 
+                  Value Std.Error   DF    t-value p-value
+X(Intercept)  0.9681026 1.2421505 7072  0.7793763  0.4358
+XSITEPUR      0.0095442 0.0690499   46  0.1382218  0.8907
+XYEAR        -0.0002050 0.0006432 7072 -0.3187554  0.7499
+Xs(AGE)Fx1   -0.2057906 0.1250881 7072 -1.6451649  0.1000
+ Correlation: 
+           X(Int) XSITEP XYEAR 
+XSITEPUR    0.327              
+XYEAR      -0.999 -0.353       
+Xs(AGE)Fx1  0.282  0.108 -0.284
+
+Standardized Within-Group Residuals:
+       Min         Q1        Med         Q3        Max 
+-4.6708194 -0.5785305 -0.1045655  0.4353085  6.2008544 
+
+Number of Observations: 7122
+Number of Groups: 
+        g ID %in% g 
+        1        48 
+[1] "north.txt"  "output.txt" "plot.pdf"   "script.R"  
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+RW ~ SITE + YEAR + s(AGE)
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.9681026  1.2421505   0.779    0.436
+SITEPUR      0.0095442  0.0690499   0.138    0.890
+YEAR        -0.0002050  0.0006432  -0.319    0.750
+
+Approximate significance of smooth terms:
+         edf Ref.df     F  p-value    
+s(AGE) 5.896  5.896 4.758 5.92e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.0878   
+  Scale est. = 0.1103    n = 7122
+Linear mixed-effects model fit by REML
+  Data: strip.offset(mf) 
+       AIC      BIC    logLik
+  1386.158 1454.861 -683.0788
+
+Random effects:
+ Formula: ~Xr - 1 | g
+ Structure: pdIdnot
+              Xr1       Xr2       Xr3       Xr4       Xr5       Xr6       Xr7       Xr8
+StdDev: 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168
+
+ Formula: ~AGE | ID %in% g
+ Structure: General positive-definite, Log-Cholesky parametrization
+            StdDev      Corr  
+(Intercept) 0.431588861 (Intr)
+AGE         0.002829614 -0.888
+Residual    0.332116426       
+
+Correlation Structure: ARMA(1,0)
+ Formula: ~YEAR | g/ID 
+ Parameter estimate(s):
+     Phi1 
+0.6173344 
+Fixed effects:  y ~ X - 1 
+                  Value Std.Error   DF    t-value p-value
+X(Intercept)  0.9681026 1.2421505 7072  0.7793763  0.4358
+XSITEPUR      0.0095442 0.0690499   46  0.1382218  0.8907
+XYEAR        -0.0002050 0.0006432 7072 -0.3187554  0.7499
+Xs(AGE)Fx1   -0.2057906 0.1250881 7072 -1.6451649  0.1000
+ Correlation: 
+           X(Int) XSITEP XYEAR 
+XSITEPUR    0.327              
+XYEAR      -0.999 -0.353       
+Xs(AGE)Fx1  0.282  0.108 -0.284
+
+Standardized Within-Group Residuals:
+       Min         Q1        Med         Q3        Max 
+-4.6708194 -0.5785305 -0.1045655  0.4353085  6.2008544 
+
+Number of Observations: 7122
+Number of Groups: 
+        g ID %in% g 
+        1        48 
+[1] "C:/Users/Kristina/Desktop/DEP"
+[1] "north.txt"  "output.txt" "plot.pdf"   "script.R"  
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+RW ~ SITE + YEAR + s(AGE)
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.9681026  1.2421505   0.779    0.436
+SITEPUR      0.0095442  0.0690499   0.138    0.890
+YEAR        -0.0002050  0.0006432  -0.319    0.750
+
+Approximate significance of smooth terms:
+         edf Ref.df     F  p-value    
+s(AGE) 5.896  5.896 4.758 5.92e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.0878   
+  Scale est. = 0.1103    n = 7122
+Linear mixed-effects model fit by REML
+  Data: strip.offset(mf) 
+       AIC      BIC    logLik
+  1386.158 1454.861 -683.0788
+
+Random effects:
+ Formula: ~Xr - 1 | g
+ Structure: pdIdnot
+              Xr1       Xr2       Xr3       Xr4       Xr5       Xr6       Xr7       Xr8
+StdDev: 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168
+
+ Formula: ~AGE | ID %in% g
+ Structure: General positive-definite, Log-Cholesky parametrization
+            StdDev      Corr  
+(Intercept) 0.431588861 (Intr)
+AGE         0.002829614 -0.888
+Residual    0.332116426       
+
+Correlation Structure: ARMA(1,0)
+ Formula: ~YEAR | g/ID 
+ Parameter estimate(s):
+     Phi1 
+0.6173344 
+Fixed effects:  y ~ X - 1 
+                  Value Std.Error   DF    t-value p-value
+X(Intercept)  0.9681026 1.2421505 7072  0.7793763  0.4358
+XSITEPUR      0.0095442 0.0690499   46  0.1382218  0.8907
+XYEAR        -0.0002050 0.0006432 7072 -0.3187554  0.7499
+Xs(AGE)Fx1   -0.2057906 0.1250881 7072 -1.6451649  0.1000
+ Correlation: 
+           X(Int) XSITEP XYEAR 
+XSITEPUR    0.327              
+XYEAR      -0.999 -0.353       
+Xs(AGE)Fx1  0.282  0.108 -0.284
+
+Standardized Within-Group Residuals:
+       Min         Q1        Med         Q3        Max 
+-4.6708194 -0.5785305 -0.1045655  0.4353085  6.2008544 
+
+Number of Observations: 7122
+Number of Groups: 
+        g ID %in% g 
+        1        48 
+[1] "north.txt"  "output.txt" "plot.pdf"   "script.R"  
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+RW ~ SITE + YEAR + s(AGE)
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.9681026  1.2421505   0.779    0.436
+SITEPUR      0.0095442  0.0690499   0.138    0.890
+YEAR        -0.0002050  0.0006432  -0.319    0.750
+
+Approximate significance of smooth terms:
+         edf Ref.df     F  p-value    
+s(AGE) 5.896  5.896 4.758 5.92e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.0878   
+  Scale est. = 0.1103    n = 7122
+Linear mixed-effects model fit by REML
+  Data: strip.offset(mf) 
+       AIC      BIC    logLik
+  1386.158 1454.861 -683.0788
+
+Random effects:
+ Formula: ~Xr - 1 | g
+ Structure: pdIdnot
+              Xr1       Xr2       Xr3       Xr4       Xr5       Xr6       Xr7       Xr8
+StdDev: 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168
+
+ Formula: ~AGE | ID %in% g
+ Structure: General positive-definite, Log-Cholesky parametrization
+            StdDev      Corr  
+(Intercept) 0.431588861 (Intr)
+AGE         0.002829614 -0.888
+Residual    0.332116426       
+
+Correlation Structure: ARMA(1,0)
+ Formula: ~YEAR | g/ID 
+ Parameter estimate(s):
+     Phi1 
+0.6173344 
+Fixed effects:  y ~ X - 1 
+                  Value Std.Error   DF    t-value p-value
+X(Intercept)  0.9681026 1.2421505 7072  0.7793763  0.4358
+XSITEPUR      0.0095442 0.0690499   46  0.1382218  0.8907
+XYEAR        -0.0002050 0.0006432 7072 -0.3187554  0.7499
+Xs(AGE)Fx1   -0.2057906 0.1250881 7072 -1.6451649  0.1000
+ Correlation: 
+           X(Int) XSITEP XYEAR 
+XSITEPUR    0.327              
+XYEAR      -0.999 -0.353       
+Xs(AGE)Fx1  0.282  0.108 -0.284
+
+Standardized Within-Group Residuals:
+       Min         Q1        Med         Q3        Max 
+-4.6708194 -0.5785305 -0.1045655  0.4353085  6.2008544 
+
+Number of Observations: 7122
+Number of Groups: 
+        g ID %in% g 
+        1        48 
+[1] "north.txt"  "output.txt" "plot.pdf"   "script.R"  
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+RW ~ SITE + YEAR + s(AGE)
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.9681026  1.2421505   0.779    0.436
+SITEPUR      0.0095442  0.0690499   0.138    0.890
+YEAR        -0.0002050  0.0006432  -0.319    0.750
+
+Approximate significance of smooth terms:
+         edf Ref.df     F  p-value    
+s(AGE) 5.896  5.896 4.758 5.92e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.0878   
+  Scale est. = 0.1103    n = 7122
+Linear mixed-effects model fit by REML
+  Data: strip.offset(mf) 
+       AIC      BIC    logLik
+  1386.158 1454.861 -683.0788
+
+Random effects:
+ Formula: ~Xr - 1 | g
+ Structure: pdIdnot
+              Xr1       Xr2       Xr3       Xr4       Xr5       Xr6       Xr7       Xr8
+StdDev: 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168 0.8223168
+
+ Formula: ~AGE | ID %in% g
+ Structure: General positive-definite, Log-Cholesky parametrization
+            StdDev      Corr  
+(Intercept) 0.431588861 (Intr)
+AGE         0.002829614 -0.888
+Residual    0.332116426       
+
+Correlation Structure: ARMA(1,0)
+ Formula: ~YEAR | g/ID 
+ Parameter estimate(s):
+     Phi1 
+0.6173344 
+Fixed effects:  y ~ X - 1 
+                  Value Std.Error   DF    t-value p-value
+X(Intercept)  0.9681026 1.2421505 7072  0.7793763  0.4358
+XSITEPUR      0.0095442 0.0690499   46  0.1382218  0.8907
+XYEAR        -0.0002050 0.0006432 7072 -0.3187554  0.7499
+Xs(AGE)Fx1   -0.2057906 0.1250881 7072 -1.6451649  0.1000
+ Correlation: 
+           X(Int) XSITEP XYEAR 
+XSITEPUR    0.327              
+XYEAR      -0.999 -0.353       
+Xs(AGE)Fx1  0.282  0.108 -0.284
+
+Standardized Within-Group Residuals:
+       Min         Q1        Med         Q3        Max 
+-4.6708194 -0.5785305 -0.1045655  0.4353085  6.2008544 
+
+Number of Observations: 7122
+Number of Groups: 
+        g ID %in% g 
+        1        48 
+[1] "north.txt"  "output.txt" "plot.pdf"   "script.R"  

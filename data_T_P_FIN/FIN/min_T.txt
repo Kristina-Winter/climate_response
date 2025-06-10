@@ -1,24 +1,3 @@
-# Searching for GHCND series nr FI000007501
-# coordinates:  67.37N,   26.63E,    179.0m; GHCN-D station code: FI000007501 SODANKYLA_AWS Finland
-# WMO station  2836
-# institution :: NOAA/NCEI
-# source_url :: https://catalog.data.gov/dataset/global-historical-climatology-network-daily-ghcn-daily-version-3
-# source_doi :: https://doi.org/10.7289/V5D21VHZ
-# contact_email :: ncdc.ghcnd@noaa.gov
-# reference :: Matthew J. Menne, Imke Durre, Russell S. Vose, Byron E. Gleason, and Tamara G. Houston, 2012: An Overview of the Global Historical Climatology Network-Daily Database. J. Atmos. Oceanic Technol., 29, 897-910. doi:10.1175/JTECH-D-11-00103.1.
-# license :: U.S. Government Work. The non-U.S. data cannot be redistributed within or outside of the U.S. for any commercial activities.
-# station_code :: FI000007501
-# station_name :: SODANKYLA_AWS
-# station_country :: Finland
-# wmo_code ::  2836
-# latitude ::   67.37 degrees_north
-# longitude ::   26.63 degrees_east
-# elevation ::    179.0 m
-# climexp_url :: https://climexp.knmi.nl/gdcntmin.cgi?WMO=FI000007501
-# scripturl01 :: http://climexp.knmi.nl/gdcntmin.cgi?STATION=SODANKYLA_AWS&WMO=FI000007501&id=someone@somewhere
-# timestamp :: Sun Nov 10 02:45:27 2024
-# history ::  2024-11-14 16:01:05 ./GDCNData/gdcntmin FI000007501\n
-# TMIN [Celsius] daily minimum temperature
  1908  1  1    -38.30
  1908  1  2    -32.40
  1908  1  3    -32.50
